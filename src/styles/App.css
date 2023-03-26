@@ -6,3 +6,7 @@ body {
   font-family: "Libre Franklin", sans-serif;
   color: #3b6064;
 }
+
+.weather-app {
+  margin: 0 20px;
+}
