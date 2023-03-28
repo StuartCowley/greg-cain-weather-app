@@ -23,7 +23,9 @@ exports[`ForecastSummaries renders correctly 1`] = `
         class="forecast-summary__icon"
         data-testid="forecast-icon"
       >
-        stubIcon1
+        <img
+          alt="weather icon"
+        />
       </div>
       <div
         class="forecast-summary__temperature"
@@ -49,7 +51,9 @@ exports[`ForecastSummaries renders correctly 1`] = `
         class="forecast-summary__icon"
         data-testid="forecast-icon"
       >
-        stubIcon2
+        <img
+          alt="weather icon"
+        />
       </div>
       <div
         class="forecast-summary__temperature"
