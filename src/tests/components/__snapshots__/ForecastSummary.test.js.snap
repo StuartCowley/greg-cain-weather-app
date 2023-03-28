@@ -9,12 +9,7 @@ exports[`ForecastSummary renders correctly 1`] = `
     <div
       class="forecast-summary__date"
     >
-      Tue May 01 2018
-    </div>
-    <div
-      class="forecast-summary__description"
-    >
-      Stub description
+      Thu Jan 01 1970
     </div>
     <div
       class="forecast-summary__icon"
@@ -22,6 +17,7 @@ exports[`ForecastSummary renders correctly 1`] = `
     >
       <img
         alt="weather icon"
+        src="http://openweathermap.org/img/wn/01d@2x.png"
       />
     </div>
     <div
@@ -29,6 +25,16 @@ exports[`ForecastSummary renders correctly 1`] = `
     >
       22°C
     </div>
+    <div
+      class="forecast-summary__description"
+    >
+      Stub description
+    </div>
+    <button
+      type="button"
+    >
+      More details
+    </button>
   </div>
 </DocumentFragment>
 `;
